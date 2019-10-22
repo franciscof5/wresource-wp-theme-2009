@@ -1,0 +1,159 @@
+/*
+Theme Name: Wresource
+Theme URI: http://www.wresource.com
+Description: Tema desenvolvido por Francisco Matelli em parceria com a Dynamo para Wresource
+Version: 1 (WP2.7.1)
+Author: Francisco Matelli
+Author URI: http://www.franciscomatelli.com
+Tags: Wresource, Francisco Matelli, Matelli
+*/
+
+@import "style/css/reset.css";
+@import "style/css/typography.css";
+@import "style/css/layout.css";
+@import "style/css/nav.css";
+
+/* USADO EM TODOS O HTML */
+* {
+	text-decoration:none;
+	font-family:Trebuchet MS;
+}
+#corpo {
+	margin:auto;
+	width:865px;
+}
+#corpo p {
+	text-align:justify;
+	font-size:12px;
+	margin-bottom:10px;
+}
+.tabela {padding:15px;}
+.fonteVermelha {color:#990000; margin-left:15px;margin-right:10px;}
+.fontePreta {color:#000;}
+.fonteAzul {color:#2520D4;}
+p {
+	font-weight:bold;
+	color:#666666;
+}
+/* SIDEBAR */
+div#sidebar {
+	width:200px;
+	float:left;
+}
+ul#subpaginas {
+	padding:0 1px 30px 1px;
+}
+ul#subpaginas li {
+	width:170px;
+}
+ul#subpaginas li ul li {
+	width:170px;
+	line-height:40px;
+	border-bottom:solid 1px #CCCCCC;
+	overflow:hidden;
+	height:40px;
+}
+ul#subpaginas li ul li a {
+	padding-left:5px;
+	font-weight:bold;
+	color:#666666;
+	height:100%;
+	width:100%;
+}
+ul#subpaginas li ul li:hover a,
+ul#subpaginas li ul li:hover {
+	background-color:#E8F1FF;
+}
+.linhacima {
+	border-top:solid 1px #CCCCCC;
+}
+/* CABEÇALHO */
+#header {
+	height:132px;
+	vertical-align:middle;
+}
+#tabelaHeader {
+	width:100%;
+	height:100%;
+}
+/*#tabelaMenu {
+	width:100%;
+	height:72px;
+	text-align:center;
+	color:#666666;
+	font-weight:bold;
+	/*width:460px;
+}
+#tabelaMenu td{
+	width:92px;
+	border-left-style:solid;
+	border-left-width:1.75px;
+	border-left-color:#999;
+	
+	border-right-style:solid;
+	border-right-width:1.75px;
+	border-right-color:#999;
+}
+#tabelaMenu .tdFonteVermelha {
+	color:#FF0000;
+}
+#tabelaMenu td:hover{
+	background-color:#4865A9;
+	color:#FFFFFF;
+}*/
+/* CORPO */
+div#conteudo {
+	float:right;
+	width:660px;
+	margin-bottom:80px;
+}
+div#conteudo h1 {
+	font-size:24px;
+	color:#D10006;
+	margin:0 0 25px 0;
+}
+.emNossoBlog {
+	font-size:18px;
+	
+	color:#1D8C16;
+	margin-left:8px;
+}
+#tabelaCorpo {
+	margin-top:20px;
+	width:100%;
+}
+#tabelaCorpo td {
+	padding:5px;
+}
+#posts {
+	margin-left:200px;
+}
+/* RODAPÉ */
+#footer {
+	clear: both;
+	display:block;
+	width:100%;
+	background-color:#E6E6E6;
+	border-top:solid 1px #000;
+	padding-top:10px;
+	/*margin-top:80px;*/
+}
+#footer p {
+	color:#333333;
+}
+#tabelaFooter {
+	margin:auto;
+	width:700px;
+	padding:5px;
+}
+#tabelaFooter h1 {
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:3px;
+	margin-top:3px;
+}
+#tabelaFooter p {
+	font-size:12px;
+	margin-bottom:3px;
+	margin-top:3px;
+}
